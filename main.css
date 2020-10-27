@@ -79,7 +79,7 @@ html, body {
 
 #innerBar9 {
  left: 485px;
- animation: blink-in 0.6s linear 2.3s both;
+ animation: blink-in 0.7s linear 2.3s both;
 }
 
 #innerBar10 {
@@ -143,7 +143,7 @@ html, body {
   border-width: 7px 7px 7px 7px;
  }
  20% {
-	  border-radius: 0%;
+	  border-radius: 60%;
 	  height: 100px;
 	  width: 100px;
 	  border: solid black;
@@ -265,18 +265,157 @@ html, body {
 	0% {
 		 opacity: 1;
 			background: #c0c7c8;
+			z-index: 10;
 	}
 	40% {
 		opacity: 1;
 		background: #c0c7c8;
+		z-index: 10;
 	}
 	90% {
 		opacity: 1;
 		background: #505859;
+		z-index: 10;
+	}
+	99.9% {
+		opacity: 0;
+		background: #505859;
+		z-index: 10;
 	}
 	100% {
 		opacity: 0;
 		background: #505859;
+		z-index: -10;
 	}
 
+}
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR STYLES */
+.nav-container {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 85%;
+background: #1d5e66;
+}
+.vertical-navbar {
+position: fixed;
+}
+.nav-item {
+	color: white;
+	list-style-type: none;
+	border-width: 4px 4px 4px 4px;
+	margin: 5px 5px 5px 5px;
+	position: fixed;
+	height: 40px;
+	width: 200px;
+	left: 5px;
+
+	color: #d6d6d6;
+text-decoration: none;
+width: 15%;
+position: fixed;
+left: 0;
+text-align: center;
+font-size: 20px;
+}
+.vertical-navbar {
+  width: 15%;
+  height: 100%;
+}
+#nav-item-0 {
+  top: 10px;
+}
+#nav-item-1 {
+  top: 90px;
+}
+#nav-item-2 {
+  top: 150px;
+}
+.hide-in-no-user {
+  position: fixed;
+  top: 210px;
+  width: 15%;
+  left: 0;
+}
+#hr-1 {
+  width: 15%;
+  position: fixed;
+  top: 70px;
+  left: 0;
+		border: solid #d6d6d6;
+		border-width: 1px 0px 0px 0px;
+}
+#hr-2 {
+  width: 15%;
+  position: fixed;
+  top: 200px;
+  left: 0;
+		border: solid #d6d6d6;
+		border-width: 1px 0px 0px 0px;
+}
+#nav-item-loggedin-1 {
+  top: 230px;
+}
+#nav-item-loggedin-2 {
+  top: 290px;
+}
+.btmNavOptions {
+  position: fixed;
+  bottom: 5px;
+  list-style-type: none;
+  display: flex;
+}
+#nav-opt-item-1 {
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+#nav-opt-item-2 {
+  position: fixed;
+  bottom: 15px;
+  width: 40px;
+  height: 40px;
+  left: 115px;
+}
+#nav-opt-item-3 {
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  bottom: 15px;
+  left: 170px;
+}
+#hr-3 {
+ position: fixed;
+ bottom: 70px;
+ width: 15%;
+	border: solid #d6d6d6;
+	border-width: 1px 0px 0px 0px;
+}
+
+#nav-item-0 > a:nth-child(1) {
+  color: #d6d6d6;
+  font-size: 40px;
+  display: ;
+  position: fixed;
+  width: 15%;
+  left: 0;
+  text-align: center;
+  top: 13px;
+}
+
+a:link {
+	color: #d6d6d6;
 }

@@ -1,0 +1,119 @@
+body {
+	background: #c0c7c8;
+}
+
+#retroLoadBarContainer {
+	border: solid black;
+	border-width: 7px 7px 7px 7px;
+	width: 840px;
+	height: 50px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	animation: blink-in 0.2s linear both;
+}
+
+.innerBars {
+	height: 42px;
+	top: 4.5px;
+	background: #0000a8;
+	position: fixed;
+	width: 50px;
+}
+
+#innerBar1 {
+	left: 5px;
+	animation: blink-in 0.1s linear 0.5s both;
+}
+#innerBar2 {
+  left: 65px;
+		animation: blink-in 0.1s linear 1s both;
+}
+#innerBar3 {
+  left: 125px;
+		animation: blink-in 0.1s linear 1s both;
+}
+#innerBar4 {
+  left: 185px;
+		animation: blink-in 0.1s linear 1.2s both;
+}
+#innerBar5 {
+  left: 245px;
+		animation: blink-in 0.1s linear 1.4s both;
+}
+#innerBar6 {
+  left: 305px;
+		animation: blink-in 0.1s linear 1.5s both;
+}
+#innerBar7 {
+  left: 365px;
+		animation: blink-in 0.1s linear 1.6s both;
+}
+#innerBar8 {
+  left: 425px;
+		animation: blink-in 0.1s linear 1.9s both;
+}
+#innerBar9 {
+  left: 485px;
+		animation: blink-in 0.1s linear 2.3s both;
+}
+#innerBar10 {
+  left: 545px;
+		animation: blink-in 0.1s linear 2.5s both;
+}
+#innerBar11 {
+  left: 605px;
+		animation: blink-in 0.1s linear 2.9s both;
+}
+#innerBar12 {
+  left: 665px;
+		animation: blink-in 0.1s linear 3.6s both;
+}
+#innerBar13 {
+  left: 725px;
+		animation: blink-in 0.1s linear 3.8s both;
+}
+#innerBar14 {
+	left: 785px;
+	animation: blink-in 0.1s linear 4.5s both;
+}
+
+
+@keyframes blink-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+/* Element | file:///C:/Users/cxXni/Desktop/class%20notifications/main.html */
+
+body > div:nth-child(1) > h2:nth-child(1) {
+  text-align: center;
+		animation: blink-in 0.1s linear 5s both;
+}
+
+/* Element | file:///C:/Users/cxXni/Desktop/class%20notifications/main.html */
+
+body > div:nth-child(1) > h1:nth-child(2) {
+  text-align: center;
+		animation: blink-in 0.1s linear 5s both;
+}
+
+/* Element | file:///C:/Users/cxXni/Desktop/class%20notifications/main.html */
+
+body > h6:nth-child(2) {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+		animation: blink-in 0.1s linear 5s both;
+}

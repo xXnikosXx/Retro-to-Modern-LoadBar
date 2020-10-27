@@ -3,6 +3,7 @@ html, body {
  padding: 0;
  margin: 0;
 	background: #505859;
+	z-index: 5;
 }
 
 .loadbarBackground {
@@ -13,6 +14,7 @@ html, body {
  bottom: 0;
  left: 0;
  right: 0;
+	z-index: 10;
 }
 
 #retroLoadBarContainer {
